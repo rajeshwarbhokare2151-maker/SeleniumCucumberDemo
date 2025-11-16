@@ -39,8 +39,7 @@ public class LoginStepsDefination {
 //	        System.out.println("Password from Excel: " + password);
 //
 //	        workbook.close();
-//	        fis.close();
-//	        
+//	        fis.close(); // new        
 	        
 	    	  WebDriverManager.chromedriver().setup();
 	          driver = new ChromeDriver();
@@ -111,4 +110,5 @@ public class LoginStepsDefination {
 	            
 	        }
 	    	
+
 	    }
